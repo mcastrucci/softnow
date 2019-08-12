@@ -24,6 +24,17 @@
   color: #61dafb;
 }
 
+/* Style all font awesome icons */
+.fa {
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

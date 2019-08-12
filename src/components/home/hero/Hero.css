@@ -1,0 +1,14 @@
+.hero{
+    height: 70vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    /*clip-path: polygon(0 0,100% 0, 100% 75%, 0 100%);*/
+    position: relative;
+
+
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.6),
+        hsla(0, 0%, 81%, 0.062)),
+        url(./softnow_background.jpeg);
+} 
