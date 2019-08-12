@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './containers/App';
 import * as serviceWorker from './serviceWorker';
+import 'font-awesome/css/font-awesome.min.css';
+
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-137981267-3');
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
