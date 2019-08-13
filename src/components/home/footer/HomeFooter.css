@@ -25,7 +25,7 @@
 
 .home-footer__spec--spec2 p::before{
     font-family: FontAwesome;
-    content: "\f555";
+    content: "\f155";
     display: inline-block;
     margin-right: 3rem;
 }
