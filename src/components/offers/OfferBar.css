@@ -34,6 +34,28 @@
         top: 10%;
 }
 
+/* Media queries */
+
+  @media only screen and (max-width: 600px) {
+    .fa-times-circle {
+        font-size: 0.9em;
+        padding: 0;
+    }
+    .offer-bar {
+        font-size: 0.9em;
+        padding: 0;
+    }
+    .offer-bar__text--1 {
+        font-size: 0.9em;
+        padding: 0;
+    }
+    .offer-bar__text--2 {
+        font-size: 0.9em;
+        padding: 0;
+    }
+}
+
+
 @media all and (min-width: 800px) {
     .offer-bar__text--1 { order: 1; } 
     .offer-bar__text--2 { order: 2; }

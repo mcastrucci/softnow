@@ -97,3 +97,38 @@
 .home__nav__signin--text:hover{
     background-color: #f39c12;
 }
+
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+    .home__nav {
+        font-size: 0.9em;
+        padding: 0;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr;
+    }
+    .home__nav__category {
+        font-size: 0.9em;
+    }
+    .home__nav__logo {
+        
+    }
+    img {
+        width: 75%;
+        align-content: center;
+    }
+    .home__nav__searchfield {
+
+    }
+  
+
+}
+
+
+
+@media all and (min-width: 800px) {
+    .offer-bar__text--1 { order: 1; } 
+    .offer-bar__text--2 { order: 2; }
+  }

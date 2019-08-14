@@ -8,7 +8,7 @@ class OfferBar extends Component {
             <div className='offer-bar'>
                 <p className='offer-bar__text--1'>Oferta especial de Windows 10! hasta 80% de descuento, Haz click aqui!</p>
                 <i class="fa fa-times-circle"></i>
-                <p className='offer-bar__text--2'>La oferta terminal en 100 dias!</p>
+                <p className='offer-bar__text--2'>La oferta termina en 100 dias!</p>
             </div>
         );
     }
