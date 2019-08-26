@@ -1,0 +1,34 @@
+.offer-bar{
+    display: flex;
+    flex-flow: row wrap;
+    background: #f4c150;
+    height: 10vh;
+    position: relative;
+}
+
+.offer-bar__text--1{
+    font-size: 1.5rem;
+    flex: 1 75%;
+    margin: 0px;
+    margin-top: 1rem;
+}
+
+.offer-bar__text--2{
+    font-size: 1.7rem;
+    font-weight: bold;
+    flex: 1 50%;
+    margin: 0px;
+}
+
+.offer-bar .fa-times-circle{
+        border-radius: 50%;
+        font-size: 4rem;
+        position: absolute;
+        right: 3%;
+        top: 10%;
+}
+
+@media all and (min-width: 800px) {
+    .offer-bar__text--1 { order: 1; } 
+    .offer-bar__text--2 { order: 2; }
+  }
